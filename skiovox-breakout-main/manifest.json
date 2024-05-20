@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json.schemastore.org/chrome-manifest",    
+    "manifest_version": 3,
+    "name": "Skiovox Breakout",
+    "description": "BETA DO NOT SHARE",
+    "version": "0.0.1",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9XN2dTdK51NU3EdQj8D43TflMwtHtfzf1oCW2kooWfbCZ86IwuWEtiD/PrBRoTpHu6jtbvWzz0iwON1unDzi55hbV1l7NTROZu7AKiHM89FwABzfD3Jk41GKORGrZbZA5nmxIMsJSJzEfr+KCY18605Ahhbb2NuOBeTUbSwa+SfshfYuk954/8NWFwGYWXoguXoFK5YWaygNeq/3xZ64o7wHatUhu1tBRH6kdb0X+i2AGxcZfhj7rwmrLFQIOwaBnq09efWKytqArx8F6Dw0BuFxmH6OoCznIh1GwH3aOnOXRJ4auc3JLLJNmKlYlhnT5lcGzokv/Lufex8j1R584QIDAQAB",
+    "permissions": [
+        "debugger",
+        "downloads",
+        "donwloads.open"
+    ],
+    "background": {
+        "service_worker": "/sw.js"
+    },
+    "action": {
+        "default_popup": "./index.html"
+    }
+}
